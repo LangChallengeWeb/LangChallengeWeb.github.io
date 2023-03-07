@@ -1,0 +1,203 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*INSTALL FONTS 
+
+/* Base styles */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 48px;
+}
+
+h2 {
+  margin: 40px 0 20px;
+  font-size: 40px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 17.5px;
+  font-size: 18px;
+}
+
+a {
+  color: #0077be;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout styles */
+nav {
+  background-color: #eee;
+  padding-top: 30px;
+  padding-left: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #0077be;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: justify;
+}
+
+.content {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align:
+center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+/* Navbar */
+.navbar {
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.navbar-brand {
+margin-right: 0;
+margin-bottom: 10px;
+}
+
+.navbar-nav {
+margin-top: 10px;
+}
+
+.nav-item {
+margin: 0 10px;
+}
+
+/* Main Content */
+.container {
+padding: 10px;
+}
+
+/* Footer */
+.footer-text {
+font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 576px) {
+/* Navbar */
+.navbar-brand {
+font-size: 24px;
+}
+
+.nav-item {
+margin: 0 5px;
+}
+
+/* Main Content */
+h1 {
+font-size: 24px;
+}
+
+h2 {
+font-size: 20px;
+}
+
+p {
+font-size: 16px;
+}
+
+/* Footer */
+.footer-text {
+font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+/* Navbar */
+.navbar-brand {
+font-size: 20px;
+}
+
+.nav-item {
+margin: 0 3px;
+}
+
+/* Main Content */
+h1 {
+font-size: 20px;
+}
+
+h2 {
+font-size: 16px;
+}
+
+p {
+font-size: 14px;
+}
+
+/* Footer */
+.footer-text {
+font-size: 8px;
+}
+}
+
+
+
